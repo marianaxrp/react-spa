@@ -3,11 +3,14 @@ import "./assets/css/base/base.css";
 import Home from "./paginas/Home";
 import Sobre from "./paginas/Sobre";
 import Pagina404 from './paginas/Pagina404';
+import Cabecalho from './componentes/Cabecalho';
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <Router>
+      <Cabecalho />
       <Switch>
         <Route exact path='/'>
           <Home />
