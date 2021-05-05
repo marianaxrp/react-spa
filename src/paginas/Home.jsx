@@ -1,5 +1,5 @@
 import React from 'react'
-import ListaPosts from '../componentes/ListPosts'
+import ListaPosts from '../componentes/ListaPosts'
 
 const Home = () => {
 
